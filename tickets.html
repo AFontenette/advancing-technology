@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tickets</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tickets.html">Tickets</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <img src="images/hero-symbol.jpg">
+        <h2>Advancing Technology</h2>
+        <h2>1st Annual Budding Developers Conference</h2>
+        <p>Orlando, FL - October 11,2019</p>
+    </header>
+
+    <div class="tickets">
+        <h1>Get Your Tickets!</h1>
+        <section>
+            <form class="ticket-form">
+                <h3>Your Info</h3>
+                <lable>
+                    <input type="text" name=name placeholder="NAME" required>
+                </lable>
+
+                <label>
+                        <input type="email" name="email" placeholder="EMAIL" required><br><br>
+                    </label>
+
+                <h3>Package</h3>
+                <select>
+                    <option value="standard">Standard $149</option>
+                    <option value="Premium">Premium $249</option>
+                </select>
+
+                <p>
+                    <input class="add-ons" type="checkbox" name="option" value="lodging"> Add on lodging - $99<br>
+                    <input class="add-ons" type="checkbox" name="option" value="meals"> Add on meals - $119<br>
+                </p>
+                <br>
+
+                <input class="submit" type="submit" value="Submit"><br>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2020</p>
+    </footer>
+
+</body>
+
+</html>
